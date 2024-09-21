@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkeletalSense</title>
+    <link rel="stylesheet" href="live.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SkeletalSense</h1>
+        <div class="video-container">
+            <video id="videoElement" width="640" height="480" autoplay playsinline></video>
+            <canvas id="outputCanvas" width="640" height="480"></canvas>
+        </div>
+    </div>
+    <br>
+    <span id="accuracyDisplay">Accuracy: --%</span>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    <script src="live.js"></script>
+</body>
+</html>

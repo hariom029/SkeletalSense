@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uploadInput {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#videoElement {
+    border: 1px solid #ccc;
+    margin-right: 20px;
+}
+
+#outputCanvas {
+    margin-right: 100px;
+    border: 1px solid #ccc;
+}

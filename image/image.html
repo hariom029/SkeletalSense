@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkeletalSense</title>
+    <link rel="stylesheet" href="image.css">
+</head>
+<body>
+    <h1>SkeletalSense</h1>
+    <div class="container">
+        <div class="image-container">
+            <input type="file" id="uploadInput">
+            <img id="uploadedImage" src="#" alt="Uploaded Image">
+            <canvas id="outputCanvas"></canvas>
+        </div>
+    </div>
+    <div id="accuracyDisplay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/posenet"></script>
+    <script src="image.js"></script>
+</body>
+</html>
