@@ -19,7 +19,7 @@ To run this project locally:
 Clone the repository:
 
 ```bash
-  git clone https://github.com/hariom029/skeletal-sense.git
+  git clone https://github.com/hariom029/skeletalSense.git
 cd skeletal-sense
 ```
 Open the index.html file in your browser:
