@@ -12,6 +12,19 @@ Skeletal Sense is a web-based human skeleton detection app using HTML, CSS, Java
 - Test and Results: Includes test images for experimentation and a folder for storing results.
 
 
+## Project Structure
+```bash
+Skeletal Sense/
+├── index.html               # Main entry point
+├── styles.css               # Main styles
+├── image/                   # Pose detection from images
+├── video/                   # Pose detection from videos
+├── live/                    # Real-time pose detection via webcam
+├── test/                    # Test images
+├── results/                 # Detected output results
+
+```
+
 ## Installation
 
 To run this project locally:
