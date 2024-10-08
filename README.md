@@ -41,6 +41,6 @@ open index.html
 ```
     
 ## License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+This project is licensed under the [MIT](LICENSE) License.
 
 
